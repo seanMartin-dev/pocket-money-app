@@ -1,24 +1,24 @@
 ## FR-1: Weekly Initialisation
 
-The system must automatically initialise each new week for every child by assigning the maximum provisional pocket money.
+The system must automatically initialise each new week for every child by assigning the maximum provisional pocket money defined for that child.
 
-## FR-2: Daily Initialisation
+## FR-2: Daily Behaviour Initialisation
 
-The system must automatically initialise each new day to good.
+The system must automatically initialise each new day's behaviour to "good" at the start of the day.
 
-## FR-3: Change behaviour type
+## FR-3: Behaviour Update
 
-The system must allow a guardian to change behaviour type on current day
+The system must allow a guardian to change a child's behaviour for the current day only from "good" to "not good".
 
-## FR-4: Tracking
+## FR-4: Weekly Behaviour Tracking
 
-The system must be able to track behaviour over a week.
+The system must record and maintain behaviour entries for each day of the week for every child.
 
-## Fr-5: Streak tracking
+## FR-5: Streak Tracking
 
-The system must be able to track consecutive "good" and "not good" days for each child.
+The system must be able to track consecutive "good" and "not good" days for each child and update streak counts whenever behaviour changes.
 
-## FR-6: Behavioiur Histor Retrieval (Guardian)
+## FR-6: Behaviour History Retrieval (Guardian)
 
 The system must allow a guardian to view a child's behaviour history for:
 
@@ -34,7 +34,7 @@ At the end of each week the system must:
 
 - aggregate behaviour entries
 
-- apply deductions
+- apply deductions based on the number of "not good" days in the week being calculated
 
 - calculate the final pocket money amount
 
@@ -48,19 +48,25 @@ The system must allow a guardian to set or update the maximum weekly reward amou
 
 The system must allow a child to view:
 
-- projected pocket money on any day during a current week
+- the provisional pocket money for the current week based on behaviour so far
 
 - their final pocket money for the previous week
 
-## FR-10: Behavioiur History Retrieval (Child)
+## FR-10: Behaviour History Retrieval (Child)
 
-The system must allow a child to view there own behaviour history, pocket money earned, but not modify it.
+The system must allow a child to view their own:
+
+- behaviour history
+
+- weekly pocket money outcomes
+
+The child must not be able to modify this information
 
 ## FR-11: Access Control
 
 The system must enforce role-based access:
 
-- guadians can modify behaviour and reward settings
+- guardians can modify behaviour and reward settings
 
 - children can only view their own data
 
