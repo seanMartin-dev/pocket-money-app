@@ -91,3 +91,11 @@ At the end of each week, the system must notify:
 - the guardian of the transfer amount
 
 - the child of the reward outcome
+
+## FR-14 Record The Date and Time
+
+The system shall automatically record the date and time of each behaviour judgement.
+
+## FR-15 Add A Comment
+
+The system shall allow the guardian to optionally add a comment to a behaviour judgement.
