@@ -1,6 +1,7 @@
 # Domain description
 
-A pocket-money application designed for parents, guardians, and their dependants. The system provides a structured way to determine how much pocket money a child should receive at the end of each week, based on their behaviour during that week. It aims to make the process fair, consistent, and transparent for both guardian and child.
+The system allows guardians to record and manage a child’s daily behaviour as part of a weekly pocket‑money scheme. Each behaviour entry is stored with its date and time, and guardians may optionally add a comment describing the behaviour or incident. The system uses these entries to calculate the child’s weekly reward, providing a fair, consistent, and transparent process for both guardian and child.
+
 
 ---
 
