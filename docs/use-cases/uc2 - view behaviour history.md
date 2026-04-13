@@ -20,7 +20,7 @@ To view a child's recorded behaviour entries for a selected time period(e.g., cu
 
 ---
 
-### Prostconditions
+### Postconditions
 
 - The system displays the behaviour history for the selected child and time period.
 
