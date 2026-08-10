@@ -1,8 +1,9 @@
-## uc2 - *view behaviour history*
+## UC8 - *view behaviour history (Guardian)*
 
 ### Actor
 
-- Guardian (and optionally Child, depending on system desing)
+- Guardian
+-
 
 ---
 
@@ -16,17 +17,18 @@ To view a child's recorded behaviour entries for a selected time period(e.g., cu
 
 - The guardian is authenticated and logged into the sytem.
 
-- The child has at least one recorded behaviour entry.
+- The child is registered under the guardians's account.
 
+- The system contains behaviour entries for the child (or can handle empty reuslts).
 ---
 
 ### Preconditions
 
 - The system displays the behaviour history for the selected child and time period.
 
-- If comments exist, they are shown alongside the behaviour entries.
+- Comments are show if they exist.
 
-- The guardian has an accurate overview of the child's behaviour for the chosen period.
+- No data is modified.
 
 
 ### Assumptions
@@ -39,7 +41,7 @@ To view a child's recorded behaviour entries for a selected time period(e.g., cu
 
 ### Main Success Scenario
 
-1. the guardian selects the child whose behaviour history they want to view.
+1. The guardian selects the child whose behaviour history they want to view.
 
 2. The system displays the available time periods (e.g current week, previous weeks).
 

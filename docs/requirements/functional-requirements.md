@@ -1,3 +1,8 @@
+# Requirements
+
+## FR-0 Guardian Account Initialisation
+
+The system must allow the creation and management of guardian accounts.
 ## FR-1: Weekly Initialisation
 
 The system must automatically initialise each new week for every child by assigning the maximum provisional pocket money defined for that child.
