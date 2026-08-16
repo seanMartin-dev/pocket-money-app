@@ -1,4 +1,4 @@
-# UC3 - * add child*
+# UC3 - *add child*
 
 ### Actor
 
